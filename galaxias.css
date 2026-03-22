@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+}
+
+#navegador a {
+    text-decoration: none;
+    color: rgb(30, 35, 30);
+}
+
+#navegador ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+}
+
+
+
+#navegador a:visited {
+    color: #000;
+}
+
+#navegador a:hover {
+    color: #000;
+}
+
+
+#cuerpo {
+    display:grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 90px;
+    gap: 50px;
+}
+
+
+
+h1 {
+    font-size: 35px;
+    background-color: rgb(6, 6, 85);
+    color: #fff;
+    margin: 0px;
+}
+
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
